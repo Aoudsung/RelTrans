@@ -6,10 +6,12 @@ This repository contains the code for the paper titled "RelTrans: An Enhancing O
 pip install -r requirements.txt
 
 ### Data
-Install the D4RL [repo]((https://github.com/Farama-Foundation/D4RL) "title").
+Install the [D4RL](https://github.com/Farama-Foundation/D4RL).
 ## Usage
 git clone https://github.com/Aoudsung/RelTrans.git
+
 cd RelTrans
+
 python train.py
 
 ## Contact
