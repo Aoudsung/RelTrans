@@ -12,10 +12,10 @@ import torch.backends.cudnn as cudnn
 import torch.nn.functional as F
 from torch.utils.data import DataLoader
 from policy import policy_func
-from decision_transformer.Teacher import DC
-from decision_transformer.losses import Soft_Distillation_Loss
+from ICCN.Teacher import DC
+from ICCN.losses import Soft_Distillation_Loss
 
-from decision_transformer.utils import evaluate_on_env, \
+from ICCN.utils import evaluate_on_env, \
     get_d4rl_normalized_score, TrajectoryDataset
 
 import wandb
